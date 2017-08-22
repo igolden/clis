@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cat $1
+loc=$(wc -l $1 | grep -o "[0-9].")
+echo $loc lines in file.
